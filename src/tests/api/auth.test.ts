@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { IncomingHttpHeaders } from "http";
 
-import { getAPIKey } from "../../src/api/auth";
+import { getAPIKey } from "../../api/auth";
 
 describe("getAPIKey", () => {
   test("return null with no headers", () => {
